@@ -104,7 +104,7 @@ Langkah-langkah yang dilakukan dalam pembangunan dashboard di atas adalah sebaga
 5.	Sunting tampilan grafik sesuai keiinginan, gunakan seluruh tools yang telah disediakan oleh Tableau jika memang diperlukan.
 Pada dashboard akan ditampilkan data mengenai kasus perkembangan COVID-19 di Indonesia dari Januari 2020 sampai dengan Desember 2021 
  
-git add 2022-06-18 (24).png
+$ <img width="698" alt="2022-06-18 (23)" src="https://user-images.githubusercontent.com/100758104/174691989-fcc346cb-e2c1-4781-85b4-58748b39c119.png">
 
 Pada dashboard juga ditampilkan peta perkembangan COVID-19 per provinsi dengan setiap lingkaran mewakili 1 provinsi di Indonesia. Ukuruan lingkaran melambangkan total jumlah kasus konfirmasi COVID-19 di suatu provinsi, semakin besar radius lingkaran, semakin tinggi angka kasus terkonfirmasi COVID-19 di provinsi tersebut. Sedangkan perbedaan intensitas warna melambangkan total kematian akibat COVID-19 di suatu provinsi. Semakin gelap warna yang direpresentasikan, semakin tinggi angka kematian akibat COVID-19 di provinsi tersebut. Informasi letak provinsi didapatkan dari data spasial berupa longitude dan latitude yang telah terdapat pada dataset. Data kasus terkonfirmasi dan jumlah kematian divisualisasikan kumulatif per hari, dari Januari 2020 sampai dengan Desember 2021. Sehingga dapat dilihat perkembangan pandemic COVID-19 di Indonesia berdasarkan provinsi setiap harinya. Ditambahkan juga informasi mengenai tanggal dan jumlah kasus. Saat kursor diarahkan ke atas titik akan muncul keterangan mengenai tanggal, jumlah kasus konfirmasi positif dan jumlah kasus kematian akibat COVID-19. 
  
